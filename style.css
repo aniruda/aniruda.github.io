@@ -66,6 +66,7 @@ body{
 	align-items: flex-end;
 	font-family: 'Indie Flower';
 	font-size: 30px;
+
 	/*border-radius: 30px*/
 }
 .slogan
@@ -81,4 +82,79 @@ body{
 	font-family: 'Indie Flower';
 	font-size: 15px;
 	border-radius: 30px
+}
+@media screen and (orientation:portrait){
+
+.bodycontainer{
+	/*border: 5px solid black;*/
+     margin: 0;
+	padding:0;
+	background-color: pink;
+	width:80vw;
+	height: 60vh;
+	border-radius: 30px;
+	display: inline;
+	justify-content:  flex-start;
+	align-items: center;
+
+}
+
+.line{
+/*border: 5px solid blue;*/
+	margin: 0;
+	padding:0;
+	  border-right: 0px solid #2c2f33;
+	width:80vw;
+
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+}
+.submit{
+	/*border: 5px solid black;*/
+	margin: 0;
+	padding:0;
+	  
+	width:80vw;
+	height: 30vh;
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: center;
+	align-items:flex-start;
+}
+.logo
+{   margin: 0;
+	padding:0;
+	  border-bottom :6px solid #2c2f33;	
+	width:30vw;
+	height: 18vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-family: 'Indie Flower';
+	font-size: 30px;
+
+	/*border-radius: 30px*/
+}
+.slogan
+
+{   margin: 0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+		
+	  /*border: 6px solid #2c2f33;*/
+	width:38vw;
+	height: 10vh;
+	font-family: 'Indie Flower';
+	font-size: 15px;
+	border-radius: 30px
+}
+
+
+
+
 }
