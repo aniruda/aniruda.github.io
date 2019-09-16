@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: grey;
+	
+}
+.outerbox{
+		
+	background:url("skull.jpg");
+	background-size: cover;
+	background-position: center;
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bodycontainer{
+	border: 5px solid black;
+     margin: 0;
+	padding:0;
+	background-color: pink;
+	width:80vw;
+	height: 60vh;
+	border-radius: 30px;
+	display: flex;
+	justify-content:  flex-start;
+	align-items: center;
+
+}
+.line{
+
+	margin: 0;
+	padding:0;
+	  border-right: 6px solid #2c2f33;
+	width:40vw;
+	height: 48vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+}
+.submit{
+	margin: 0;
+	padding:0;
+	  
+	width:40vw;
+	height: 48vh;
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: center;
+	align-items: center;
+}
+.logo
+{   margin: 0;
+	padding:0;
+	  /*border-bottom :6px solid #2c2f33;	*/
+	width:30vw;
+	height: 18vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-family: 'Indie Flower';
+	font-size: 30px;
+	/*border-radius: 30px*/
+}
+.slogan
+
+{   margin: 0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+		
+	  /*border: 6px solid #2c2f33;*/
+	width:38vw;
+	height: 10vh;
+	font-family: 'Indie Flower';
+	font-size: 25px;
+	border-radius: 30px
+}
