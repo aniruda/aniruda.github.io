@@ -22,7 +22,7 @@ body{
 	border: 5px solid black;
      margin: 0;
 	padding:0;
-	background-color: pink;
+	background-color: orange;
 	width:80vw;
 	height: 60vh;
 	border-radius: 30px;
@@ -42,7 +42,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    
+
 }
 .submit{
 	margin: 0;
@@ -65,7 +65,7 @@ body{
 	justify-content: center;
 	align-items: flex-end;
 	font-family: 'Indie Flower';
-	font-size: 30px;
+	
 
 	/*border-radius: 30px*/
 }
@@ -75,9 +75,11 @@ body{
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
 	perspective-origin: 200px 40px;
+	/*border: 4px solid white;*/
 }
 
 .word span {
+
 	cursor: pointer;
 	display: inline-block;
 	font-size: 36px;
